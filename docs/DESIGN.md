@@ -65,9 +65,7 @@ proof of concept and AG News classification as the proof that the abstraction is
 
 **Key structural decision:** all variability lives behind three registries
 (`models`, `tasks`, `evaluators`). The executor and API depend only on the
-interfaces. Adding a component is one new file + one decorator — which is why
-AG News could be added on Day 6 in a couple of hours without touching the runner.
-
+interfaces. Adding a component is one new file + one decorator.
 **Data model (storage/db.py):**
 - `runs` — one row per eval job execution; stores the full job JSON (model, task,
   dataset path/split, evaluator list, prompt version). **Runs are immutable and

@@ -29,7 +29,7 @@ proof of concept and AG News classification as the proof that the abstraction is
 
 ## 2. What this project demonstrates
 
-
+| Area | Where & how |
 |---|---|
 | Metric selection & limitations | §5.1 — EM/F1 for QA, accuracy for classification, and *why they are insufficient* |
 | LLM-as-a-judge done responsibly | §5.2 — rubric design, temperature 0, pairwise mode with position-bias correction |

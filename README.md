@@ -33,7 +33,7 @@ uvicorn eval_service.api.main:app --app-dir src
 ```
         POST /evals  (EvalJob: model x task x dataset x evaluators)
                      |
- FastAPI --------> JobQueue (Day 5) --------> Workers
+ FastAPI --------> JobQueue  --------> Workers
   |                                            |
   |                       +--------------------v--------------------+
   |                       | Executor (registry-driven, sync baseline)|
@@ -68,8 +68,3 @@ tests/               metric known-values, registry, end-to-end mock run
 - **New model/provider**: subclass `ModelAdapter`, implement `_call()`. Caching/retries/cost tracking come free.
 - **New evaluator**: subclass `Evaluator`, decorate with `@EVALUATOR_REGISTRY.register("name")`.
 
-## Build status
-
-This repo is the Day 1-2 skeleton: interfaces, registries, SQuAD metrics, mock
-adapter, sync executor, storage, and tests all work. `TODO(Day N)` markers map
-to the 7-day plan in [docs/DESIGN.md](docs/DESIGN.md).

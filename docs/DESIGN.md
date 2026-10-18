@@ -4,8 +4,6 @@ An evaluation-as-a-service platform where models, tasks/datasets,
 and evaluators are all pluggable — with SQuAD-style extractive QA as the working
 proof of concept and AG News classification as the proof that the abstraction is real.
 
-This document is written to double as interview preparation. Every section maps to
-questions you can expect in **LLM Evaluation** and **ML System Design** interviews.
 
 ---
 

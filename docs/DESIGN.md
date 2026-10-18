@@ -113,10 +113,6 @@ design, not ongoing complexity."*
   `tasks/squad.py` with known-value unit tests.
 - **AG News (second task):** accuracy over 4 classes.
 
-**Be ready to discuss their limits:** EM/F1 reward span overlap, not correctness —
-"Paris" and "the capital of France, Paris" get partial credit while a correct
-paraphrase gets zero. This motivates the judge. Also know *why* F1 maxes over multiple
-gold references (`best_over_references`) and what that does to score distributions.
 
 ### 5.2 LLM-as-a-judge 
 

@@ -228,7 +228,7 @@ but the *data model* already supports everything the dashboard needs.
 
 ## 9. References 
 
-- Rajpurkar et al., *SQuAD* (2016) — the EM/F1 protocol you implemented
-- Zheng et al., *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena* (2023) — judge biases, position swap
-- Liang et al., *HELM* (2022) — holistic, multi-metric evaluation framing
-- Es et al., *RAGAS* (2023) — reference-free metrics (faithfulness, answer relevance) if you extend to RAG
+- Rajpurkar et al., *SQuAD* (2016) 
+- Zheng et al., *Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena* (2023) 
+- Liang et al., *HELM* (2022)
+- Es et al., *RAGAS* (2023)

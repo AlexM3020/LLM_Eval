@@ -1,0 +1,23 @@
+[project]
+name = "llm-eval-service"
+version = "0.1.0"
+description = "Pluggable LLM evaluation service: swappable models, tasks, datasets, and evaluators."
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "openai>=1.30",
+  "datasets>=2.19",
+  "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

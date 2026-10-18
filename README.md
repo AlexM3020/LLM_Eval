@@ -1,12 +1,7 @@
 # LLM Eval Service
 
 A small **evaluation-as-a-service** platform for LLM applications.
-Models, tasks/datasets, and evaluators are all pluggable via registries — the
-service itself knows nothing about SQuAD, OpenAI, or F1.
-
-Built as interview preparation for **LLM Evaluation** + **ML System Design**
-roles. See [docs/DESIGN.md](docs/DESIGN.md) for the full design document,
-methodology, and 7-day build plan.
+Models, tasks/datasets, and evaluators are all pluggable via registries.
 
 ## Quickstart
 

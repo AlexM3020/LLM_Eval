@@ -1,6 +1,6 @@
 # LLM Eval Service
 
-A small but real **evaluation-as-a-service** platform for LLM applications.
+A small **evaluation-as-a-service** platform for LLM applications.
 Models, tasks/datasets, and evaluators are all pluggable via registries — the
 service itself knows nothing about SQuAD, OpenAI, or F1.
 
